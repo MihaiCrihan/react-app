@@ -1,15 +1,15 @@
 body {
-    background: lightgray;
+  background: lightgray;
 }
 
 .post {
-    border: 2px solid teal;
-    margin-top: 12px;
-    padding: 12px;
-    display: flex;
-    justify-content: space-between;
+  border: 2px solid teal;
+  margin-top: 12px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .post__button {
-    margin: auto 0 auto 40px;
+  margin: auto 0 auto 40px;
 }
