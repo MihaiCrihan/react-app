@@ -1,0 +1,15 @@
+.page__wrapper {
+    margin-top: 30px;
+}
+
+.page {
+    margin: 0 12px;
+    cursor: pointer  ;
+}
+
+.page__current {
+    border: 1px solid teal;
+    border-radius: 100%;
+    font-weight: bold;
+    padding: 10px;
+}

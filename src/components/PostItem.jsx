@@ -6,9 +6,9 @@ const PostItem = (props) => {
     <div className="post">
       <div className="post__content">
         <strong>
-          {props.number}. {props.post.title}
+          {props.post.id}. {props.post.title}
         </strong>
-        <div>{props.post.description}</div>
+        <div>{props.post.body}</div>
       </div>
       <div className="post__button" style={{ whiteSpace: "nowrap" }}>
         <MyButton onClick={() => props.remove(props.post)}>
